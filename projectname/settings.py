@@ -81,11 +81,11 @@ import os
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('DB_NAME'),
-        'USER': os.environ.get('DB_USER'),
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': os.environ.get('DB_HOST'),
-        'PORT': os.environ.get('DB_PORT'),
+        'NAME': "olatunde2$task",
+        'USER': "olatunde2",
+        'PASSWORD': "okanlawon@123",
+        'HOST': "olatunde2.mysql.pythonanywhere-services.com",
+        'PORT':  '3306',
     }
 }
 
